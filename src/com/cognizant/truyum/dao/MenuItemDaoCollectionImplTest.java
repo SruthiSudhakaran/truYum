@@ -7,7 +7,7 @@ import com.cognizant.truyum.util.DateUtil;
 
 //Menu Item(Admin) Main class
 public class MenuItemDaoCollectionImplTest {
-    static MenuItemDao menudao = new MenuItemDaoCollectionImpl();
+    static MenuItemDaoCollectionImpl menudao = new MenuItemDaoCollectionImpl();
 
     public static void main(String args[]) {
         testGetMenuItemListAdmin();
@@ -53,8 +53,8 @@ public class MenuItemDaoCollectionImplTest {
         System.out.println("\nGet Menu Item");
         System.out.printf("%-10s%-20s%-15s%-10s%-17s%-15s%-15s\n", "Id", "Name", "Price", "Active",
                 "Date of Launch", "Category", "Free Delivery");
-        MenuItem menuItem=menudao.getMenuItem(3);
-        System.out.println(menuItem); //invokes toString();
+        MenuItem menuItem = menudao.getMenuItem(3);
+        System.out.println(menuItem); // invokes toString();
 
     }
 }
