@@ -1,0 +1,168 @@
+header {
+    background-color: #31599e;
+    top: 0%;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+}
+
+footer {
+    bottom: 0%;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    background-color: #9ea2a8;
+    padding: 1%;
+}
+
+#copy-right {
+    font-family: Calibri;
+    margin-left: 0.5%;
+}
+
+/*heading in the header*/
+#truYum {
+    color: #c4c8cf;
+    margin-left: 1%;
+    position: fixed;
+    top: 1%;
+    font-size: 25px;
+}
+
+/*image in header*/
+#truYum-img {
+    margin-left: 6%;
+}
+
+/*menu link in header*/
+nav a {
+    font-size: 17px;
+    margin-left: 93%;
+    top: 2%;
+    position: fixed;
+    color: #c4c8cf;
+    font-family: Calibri;
+}
+
+/*cart link in header*/
+#cart {
+    margin-left: 97.5%;
+}
+
+/*headings for all pages*/
+#menu-heading {
+    top: 13%;
+    position: fixed;
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: Calibri;
+}
+
+/*tables except form*/
+.table {
+    top: 21%;
+    position: fixed;
+    margin-left: 10%;
+    font-family: Calibri;
+}
+
+/*links in tables*/
+a {
+    color: #000000;
+}
+
+/*edit status*/
+.status {
+    color: #32c937;
+    top: 18%;
+    position: fixed;
+    margin-left: 10%;
+    font-family: Calibri;
+}
+
+/*status customer-notification page*/
+.item-status {
+    color: #32c937;
+    top: 16%;
+    position: fixed;
+    margin-left: 20%;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+/*cart notification*/
+.cart-notification {
+    color: #32c937;
+    top: 16%;
+    position: fixed;
+    margin-left: 17%;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+/*cart-empty*/
+#cart-p {
+    color: #a8a8a8;
+    position: fixed;
+    top: 18%;
+    margin-left: 10%;
+    font-family: Calibri;
+}
+
+/*empty cart menu-item link*/
+#empty-cart {
+    color: #1eb5f7;
+}
+
+/*table for form*/
+table {
+    position: fixed;
+    margin-left: 10%;
+    top: 20%;
+    font-family: Calibri;
+}
+
+/*checkbox*/
+#delivery {
+    width: 25px;
+    height: 25px;
+}
+
+/*form labels*/
+.grey {
+    color: #787878;
+}
+
+/*checkbox label*/
+#free-delivery {
+    font-family: Calibri;
+    size: 10px;
+    color: #787878;
+}
+
+/*submit button*/
+#submit {
+    background-color: #31599e;
+    height: 40px;
+    width: 150px;
+    border: none;
+    padding: 5px;
+    font-weight: 10px;
+    color: #ffffff;
+}
+
+/*name text field*/
+#name {
+    width: 518px;
+}
+
+/*price text field*/
+#price {
+    width: 100px;
+}
+
+/*radio button*/
+.active {
+	height: 20px;
+	width: 20px;
+}
