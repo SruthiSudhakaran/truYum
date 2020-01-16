@@ -24,7 +24,7 @@ public class CartDaoCollectionImplTest {
     public static void testGetAllCartItems() {
         try {
             System.out.println("Retrieving all the items from cart");
-            List<MenuItem> list = cartDao.getAllCartItems(2).getMenuItemList(); // getting the
+            List<MenuItem> list = cartDao.getAllCartItems(1).getMenuItemList(); // getting the
                                                                                 // menuitem with
                                                                                 // userid 1 and
                                                                                 // storing it in the
@@ -32,7 +32,7 @@ public class CartDaoCollectionImplTest {
             for (MenuItem menuItem : list) {
                 System.out.println(menuItem);
             }
-            System.out.println("Total Price: " + cartDao.getAllCartItems(2).getTotal());
+            System.out.println("Total Price: " + cartDao.getAllCartItems(1).getTotal());
         } catch (CartEmptyException e) {
             System.out.println(e); // executes if there is no item in the cart
         }

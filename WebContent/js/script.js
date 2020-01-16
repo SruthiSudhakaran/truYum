@@ -1,6 +1,6 @@
-function valid() {
+function validateMenuItemForm() {
 
-    var name = document.forms["menu"]["title"].value;
+    var name = document.forms["menuItemForm"]["name"].value;
     var nameRegExp = (/^[a-zA-Z]{2,65}$/);
     if (name == "") {
         alert("Title is required");
@@ -11,7 +11,7 @@ function valid() {
         return false;
     }
 
-    var price = document.forms["menu"]["price"].value;
+    var price = document.forms["menuItemForm"]["price"].value;
     if (price == "") {
         alert("Price is required");
         return false;
@@ -21,13 +21,13 @@ function valid() {
         return false;
     }
 
-    var dateOfLaunch = document.forms["menu"]["dateOfLaunch"].value;
+    var dateOfLaunch = document.forms["menuItemForm"]["dateOfLaunch"].value;
     if (dateOfLaunch == "") {
         alert("Date of Launch is required");
         return false;
     }
 
-    var category = document.forms["menu"]["category"].value;
+    var category = document.forms["menuItemForm"]["category"].value;
     if (category == "") {
         alert("Select one category");
         return false;
