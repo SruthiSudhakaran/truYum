@@ -1,7 +1,7 @@
 function validateMenuItemForm() {
 
     var name = document.forms["menuItemForm"]["name"].value;
-    var nameRegExp = (/^[a-zA-Z]{2,65}$/);
+    var nameRegExp = (/^[a-z A-Z]{2,65}$/);
     if (name == "") {
         alert("Title is required");
         return false;
