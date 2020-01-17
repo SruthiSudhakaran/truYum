@@ -1,4 +1,4 @@
-package com.cognizant.tryum.servlet;
+package com.cognizant.truyum.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
