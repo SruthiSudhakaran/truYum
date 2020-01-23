@@ -33,7 +33,8 @@
         <c:forEach items="${menuItem}" var="menuItem">
             <tr>
                 <td align="left">${menuItem.getName()}</td>
-                <td align="right">${menuItem.getPrice()}</td>
+                <td align="right"><f:setLocale value="en_IN" /> <f:formatNumber
+                        type="currency" value="${menuItem.getPrice()}"></f:formatNumber></td>
                 <c:choose>
                     <c:when test="${menuItem.isActive()==true}">
                         <td align="center"><c:out value="Yes"></c:out></td>

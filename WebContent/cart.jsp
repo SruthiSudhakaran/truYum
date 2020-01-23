@@ -41,7 +41,8 @@
                         <td align="center"><c:out value="No"></c:out></td>
                     </c:otherwise>
                 </c:choose>
-                <td align="right">${menuItem.getPrice()}</td>
+                <td align="right"><f:setLocale value="en_IN" /> <f:formatNumber
+                        type="currency" value="${menuItem.getPrice()}"></f:formatNumber></td>
 
                 <td align="center"><a href="RemoveCart?menuItemId=${menuItem.getId()}">Delete</a></td>
             </tr>
